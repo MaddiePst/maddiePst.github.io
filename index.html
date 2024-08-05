@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Madalina Pastiu &mdash; Portfolio</title>
+  </head>
+
+  <body class="body transition">
+    <header>
+      <nav class="nav">
+        <div class = "header-container">
+          <div class="name">
+            <a href="#work" class="header-link">Madalina Pastiu</a>
+          </div>
+          <div class="icons">
+            <a
+              href="https://www.linkedin.com/in/madalina-pastiu-52a01396/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+            </a>
+            <a
+              href="https://github.com/MaddiePst"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon class="icon" name="logo-github"></ion-icon>
+            </a>
+            <a
+              href="Madalina Pastiu Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ion-icon class="icon" name="document-text"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="work-link" href="#work">work</a>
+          </li>
+          <li class="nav-resume">
+            <a class="resume-link" href = 'Madalina Pastiu Resume.pdf'>resume</a>
+          </li>
+          <li class="nav-item hello-btn">
+            <a href="https://www.linkedin.com/in/madalina-pastiu-52a01396/">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      
+      <section class="hero">
+        <div class="hero-img-container">
+          <img
+            class="hero-img"
+            src="https://mrwallpaper.com/images/high/presenting-a-programming-code-m99h69rgpg3t5crq.webp"
+            alt="Screen with code"
+          />
+        </div>
+        <div class="hero-text-content">
+          <p class="hero-text">
+            Hi, I am 
+            <span class="title-font main-title">Madalina</span>, a
+            <span class="title-font main-title">software engineer.</span>
+          </p>
+        </div>
+      </section>
+
+      <section  class="work" id="work">
+        <h2 class="heading title-font">work</h2>
+        <div class="work-cards">
+
+          <div class="work-card">
+            <img
+            src="./img/Bankist App.png"
+            alt="bankist app screenshot"
+            class="card-img blur zoom"
+            />
+            <div class="card-content slide-left">
+              <div class="card-header">
+                <h4 class="card-title">
+                  <a
+                  href="https://maddiepst.github.io/Bank-App.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Bankist App</a
+                  >
+                </h4>
+                <a
+                href="https://github.com/MaddiePst/Bank-App.github.io"
+                target="_blank"
+                  rel="noopener noreferrer"
+                  class="git-link"
+                  >
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </div>
+              <p class="card-text">
+                Developed a banking application that supports user transfers, loan applications, account closures, and transaction history viewing. (login: username1: js - password1: 1111, username2: jd - password2: 2222)
+              </p>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <img
+            src="./img/Pig Game.png"
+            alt="Pig game screenshot"
+            class="card-img blur zoom"
+            />
+            <div class="card-content slide-left">
+              <div class="card-header">
+                <h4 class="card-title">
+                  <a
+                  href="https://maddiepst.github.io/Pig-Game.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Pig Game</a
+                  >
+                </h4>
+                <a
+                href="https://github.com/MaddiePst/Pig-Game.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="git-link"
+                >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </div>
+            <p class="card-text">
+              Created a two-player game where players roll dice to accumulate points, with strategically holding the points and the first to reach 100 points wins. Rolling a 1 switches the turn to the other player.
+            </p>
+          </div>
+        </div>
+        
+          <div class="work-card dark-card">
+            <img
+            src="./img/Guess My Number.png"
+            alt="Guess my number game screenshot"
+            class="card-img blur zoom"
+            />
+            <div class="card-content slide-left">
+              <div class="card-header">
+                <h4 class="card-title">
+                  <a
+                  class="titleLink"
+                  href="https://maddiepst.github.io/Guess-My-Number-Game.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Guess My Number Game</a
+                  >
+                </h4>
+                <a
+                href="https://github.com/MaddiePst/Guess-My-Number-Game.github.io"
+                class="git-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </div>
+            <p class="card-text">
+              A number guessing game where users try to guess a number between 1 and 20, with feedback provided for higher or lower guesses, and a high score tracker.
+            </p>
+          </div>
+        </div>
+        
+        <div class="work-card">
+          <img
+          src="./img/Omnifood Website.png"
+          alt="Omnifood website "
+          class="card-img blur zoom"
+          />
+          <div class="card-content slide-left">
+            <div class="card-header">
+              <h4 class="card-title">
+                <a
+                class="titleLink"
+                href="https://omnifood-maddie.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Omnifood Website</a
+                >
+              </h4>
+              <a
+              href="https://github.com/MaddiePst/Omnifood-Website"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="git-link"
+              >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <p class="card-text">Built a food service website that allows users to subscribe to meal deliveries, view menu options, and manage subscriptions.
+          </p>
+        </div>
+      </div>
+  </div>
+  </section>
+  
+      <section class="footer">
+        
+        <div class="footer-content">
+          <p class="footer-text">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Madalina Pastiu All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

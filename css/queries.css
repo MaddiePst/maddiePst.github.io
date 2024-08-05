@@ -1,0 +1,272 @@
+
+@media (max-width: 1200px) {
+  /* GENERAL */
+  .heading {
+  font-size: 3.2rem;
+  padding: 2rem 4rem;
+  }
+  
+  /* NAV */
+  .nav {
+    padding: 0.7rem 2rem;
+    font-size: 1.7rem;
+  }
+    
+  .nav a:hover {
+    text-decoration: underline var(--accent-color-light);
+   font-size: 2rem;
+   transition: 0.2s;
+  }
+
+  .nav ion-icon {
+    height: 2rem;
+    width: 2rem;
+  } 
+
+  .nav ion-icon:hover {
+    font-size: 2rem;
+    transition: 0.2s;
+  }
+     
+  .nav-list {
+    gap: 1.7rem;
+  }
+ 
+  .hello-btn:hover{  
+    transition: 0.2s;
+    transform: scale(1.02);
+    font-size: 2rem;
+  }
+
+  /* .hello-btn:active,
+  .hello-btn:visited {
+    font-size: 1.7rem;
+  } */
+    
+    /*
+  .nav button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+  } */
+
+  /* HERO */
+  .hero {
+    padding: 2rem 2rem;
+    font-size: 1.7rem;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    height: 75vh;
+  }
+
+  .hero-img-container {
+    width: 55%;
+  }
+    
+  .hero-text-content {
+    width: 35%;
+  }
+        
+  .hero-text {
+    text-align: end;
+  }
+
+  .main-title{
+    font-size: 2.5rem;
+  }
+
+  /* WORK */
+ .work {
+   color: var(--light);
+   padding: 8rem 4rem;
+  }
+    
+  .work-cards {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 1rem;
+    }
+      
+  .work-card {
+    max-width: 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1.4rem rgba(0, 0, 0, 0.12);
+      
+    justify-self: center;
+      
+    position: relative;
+    overflow: hidden;
+  }
+      
+  .work-card > .card-content {
+    padding-left: 2rem;
+    width: 90%;
+    }
+
+  /* RESUME TEXT */
+  /*
+  .resume-text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    color: inherit;
+  }
+
+  .resume-text > p {
+    font-size: 1.8rem;
+  }
+
+  .word-bold {
+    color: var(--accent-color-dark);
+    font-size: 3.8rem;
+  }
+
+  .word-bold:hover {
+    transition: 0.2s;
+    font-size: 4rem;
+  }
+
+  /* MODAL */
+  /*
+  .modal {
+    width: 100rem;
+    max-width: 80%;
+    border-radius: 2rem;
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+  }
+
+  .modal-icon {
+    font-size: 3.5rem;
+  }
+
+  .modal-icon:hover {
+    font-size: 4rem;
+  }
+
+  .modal-heading {
+    font-size: 2.6rem;
+  }
+
+  .modal-text {
+    font-size: 1.8rem;
+  }
+    */
+}
+
+@media (max-width: 800px) {
+  /* GENERAL */
+  .heading {
+    padding-top:8rem;
+    font-size: 2.5rem;
+    }
+    
+    /* NAV */
+  .nav {
+    padding: 0.7rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .icons{
+    padding-left: 1.2rem;
+    gap: 1rem;
+  }
+    
+  .nav a:hover {
+   font-size: 1.7rem;
+   transition: 0.2s;
+  }
+
+  .nav ion-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+  } 
+
+  .nav ion-icon:hover {
+    font-size: 1.8rem;
+    transition: 0.2s;
+  }
+ 
+  .hello-btn:hover{  
+    transition: 0.2s;
+    transform: scale(1.02);
+    font-size: 1.5rem;
+  }
+
+  /* .hello-btn:active,
+  .hello-btn:visited {
+    font-size: 1.7rem;
+  } */
+    
+    /*
+  .nav button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+  } */
+
+  /* HERO */
+  .hero {
+    font-size: 1.5rem;
+  }
+
+  .hero-img-container {
+     width: 50%;
+  }
+
+  .hero-text-content {
+    margin: 8rem 1rem;
+    width: 30%;
+  }
+
+  .hero-text{
+    font-size: 1.3rem;
+  }
+  
+  .main-title {
+    font-size: 1.8rem;
+  }
+    
+    /*
+  .second-title {
+    font-size: 3.2rem;
+    color: var(--accent-color-light);
+  }
+
+  /* WORK */
+  .work {
+    margin-top: 2rem;
+    padding: 1rem 5.5rem;
+  }
+    
+  .work a:hover {
+    transition: 0.2s;
+    text-decoration: none;
+  }
+      
+  .work-card > .card-content > .card-header {
+    font-size: 1.6rem;
+  }
+        
+  .work-card > .card-content > .card-text {
+    font-size: 1.2rem;
+  }
+          
+  /* RESUME TEXT */
+  /*
+  .resume-text > p {
+    font-size: 1.4rem;
+  }
+
+  .word-bold {
+    font-size: 2.8rem;
+  }
+
+  .word-bold:hover {
+    font-size: 3rem;
+  }
+
+  /* FOOTER */
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}
